@@ -166,6 +166,8 @@ return [
 
         Collective\Html\HtmlServiceProvider::class,
 
+        Laratrust\LaratrustServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -230,6 +232,8 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+
+        'Laratrust' => Laratrust\LaratrustFacade::class,
 
     ],
 
